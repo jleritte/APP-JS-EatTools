@@ -19,10 +19,11 @@ BODY > DIV {
 }
 
 #menu {
+	display: flex;
 }
 
 #menu > INPUT {
-	margin-right: 1vmin;
+	margin: 0 0.5vmin;
 }
 
 #names, #votes {
@@ -37,6 +38,10 @@ border: 0;
 	margin-left: 0;
 }
 
+LABEL.radiusLabel {
+	width: 100px;
+}
+
 SPAN {
 	border: 1px solid #2c3e50;
 	margin-left: 1vmin;
@@ -47,10 +52,6 @@ SPAN {
 	border: 1px solid #2c3e50;
 	padding: 1vmin;
 	margin: 0 0 1vmin;
-}
-
-DIV > LABEL{
-	width: 25%;
 }
 
 .total {
