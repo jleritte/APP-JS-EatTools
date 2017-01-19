@@ -63,8 +63,8 @@ SPAN {
 
 .remove_user {
 	display: inline-block;
-	width: 1.25vmin;
-	height: 1.25vmin;
+	width: 1em;
+	height: 1em;
 	margin-left: 1vmin;
 	border: 1px solid #2c3e50;
 	border-radius: 50%;
