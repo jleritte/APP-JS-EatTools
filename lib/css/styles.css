@@ -18,19 +18,11 @@ BODY > DIV {
 	display: none;
 }
 
-#menu {
-	display: flex;
-}
-
-#menu > INPUT {
-	margin: 0 0.5vmin;
-}
-
 #names, #votes {
 	margin-top: 1vmin;
 }
 
-#names SPAN, #loading SPAN {
+SPAN.name, #loading SPAN {
 border: 0;
 }
 
@@ -48,6 +40,7 @@ SPAN {
 }
 
 .ListItem{
+	display: block;
 	background-color: #ecf0f1;
 	border: 1px solid #2c3e50;
 	padding: 1vmin;
@@ -69,11 +62,13 @@ SPAN {
 }
 
 .remove_user {
-	display: inline;
+	display: inline-block;
+	width: 1.25vmin;
+	height: 1.25vmin;
 	margin-left: 1vmin;
 	border: 1px solid #2c3e50;
 	border-radius: 50%;
-	background-color: #95a5a6;
+	background: linear-gradient(45deg,rgba(0,0,0,0) 46%,rgba(111,111,111,1) 50%,rgba(0,0,0,0) 54%),linear-gradient(-45deg,rgba(0,0,0,0) 46%,rgba(111,111,111,1) 50%,rgba(0,0,0,0) 54%), #95a5a6;
 	color: #ecf0f1;
 	opacity: .5;
 }
