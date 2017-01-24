@@ -1,18 +1,29 @@
 LIST-ITEM {
-	display: block;
+	display: flex;
 	background-color: #ecf0f1;
 	border: 1px solid #2c3e50;
 	padding: 1vmin;
-	margin: 0 0 1vmin;
+	margin-top: 0.5vh;
+	width: 98vw;
+}
+
+LIST-ITEM:last-child {
+	margin-bottom: 0.5vh;
 }
 
 .total {
-	border: 0;
-	float: right;
-	margin: 0 5px;
+	order: 99;
+	flex-grow: 2;
+	text-align: right;
 }
 
 .voted {
-	color: #ecf0f1;
+	color: #FFFFFF;
 }
 
+LIST-ITEM > LABEL {
+	width: 10vw;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

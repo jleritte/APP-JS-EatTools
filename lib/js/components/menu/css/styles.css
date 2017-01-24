@@ -1,25 +1,28 @@
 CONTROL-MENU {
 	display: flex;
-	border: 1px solid #2c3e50;
-	box-shadow: .5vmin .5vmin .5vmin #2c3e50;
-	background-color: #ecf0f1;
-	padding: 1vmin;
-	position: fixed;
-	top: 1vmin;
-	width: 98vw;
+	background-color: #2e7d32;
+	width: 100vw;
+	height: 6vh;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
 }
 
 CONTROL-MENU > INPUT,
-CONTROL-MENU > BUTTON,
-CONTROL-MENU > .radius {
+CONTROL-MENU > BUTTON {
 	margin: 0 0.5vmin;
 	min-width: 100px;
+	border: 0;
 }
 
-LABEL.radiusLabel {
+.radiusLabel {
 	width: 100px;
 }
 
 .address {
 	width: 25vw;
+}
+
+CONTROL-MENU > BUTTON {
+	/* background: #e040fb; */
 }

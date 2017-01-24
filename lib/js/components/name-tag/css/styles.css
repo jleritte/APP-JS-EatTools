@@ -1,5 +1,6 @@
 NAME-TAG {
-	margin-left: 1vmin;
+	margin: 0 1vmin;
+	display: flex;
 }
 
 .remove_user {
@@ -7,10 +8,9 @@ NAME-TAG {
 	width: 1em;
 	height: 1em;
 	margin-left: 1vmin;
-	border: 1px solid #2c3e50;
 	border-radius: 50%;
-	background: linear-gradient(45deg,rgba(0,0,0,0) 46%,rgba(111,111,111,1) 50%,rgba(0,0,0,0) 54%),linear-gradient(-45deg,rgba(0,0,0,0) 46%,rgba(111,111,111,1) 50%,rgba(0,0,0,0) 54%), #95a5a6;
-	color: #ecf0f1;
+	box-shadow: inset 0 0 0 2px #a5d6a7;
+	background: linear-gradient(45deg,rgba(0,0,0,0) 46%,rgba(56,142,60,1) 50%,rgba(0,0,0,0) 54%),linear-gradient(-45deg,rgba(0,0,0,0) 46%,rgba(56,142,60,1) 50%,rgba(0,0,0,0) 54%), #a5d6a7;
 	opacity: .5;
 }
 
