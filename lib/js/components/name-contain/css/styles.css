@@ -5,4 +5,7 @@ NAME-CONTAIN {
 	box-shadow: .5vmin .5vmin .5vmin #2c3e50;
 	padding: 1vmin;
 	margin-top: 1vmin;
+	position: fixed;
+	width: 98vw;
+	top: 9vmin;
 }

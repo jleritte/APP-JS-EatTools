@@ -4,6 +4,7 @@ VOTE-CONTAIN {
 	background-color: #ecf0f1;
 	box-shadow: .5vmin .5vmin .5vmin #2c3e50;
 	padding: 1vmin;
-	margin-top: 1vmin;
+	margin-top: 16vmin;
+	width: 98vw;
 	flex-direction: column;
 }
