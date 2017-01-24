@@ -12,3 +12,11 @@ CONTROL-MENU > .radius {
 	margin: 0 0.5vmin;
 	min-width: 100px;
 }
+
+LABEL.radiusLabel {
+	width: 100px;
+}
+
+.address {
+	width: 25vw;
+}
