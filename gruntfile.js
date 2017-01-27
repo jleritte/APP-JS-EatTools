@@ -117,6 +117,11 @@ module.exports = function(grunt) {
 						return dest + src.replace('home','index');
 					}
 				}]
+			},
+			fonts: {
+				files: [
+					{ expand: true, cwd: path + 'font/', src: [ '*' ], dest: 'build/resources/css/font' }
+				]
 			}
 			},
 		imagemin: {
