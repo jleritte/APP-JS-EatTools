@@ -99,5 +99,4 @@ INPUT[type=range]::-ms-thumb {
   border-radius: 50px;
   background: #a5d6a7;
   cursor: pointer;
-  height: 1px;
 }
